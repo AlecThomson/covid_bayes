@@ -1,14 +1,16 @@
-# covid bayes
+# Bayes and RATs
 
 ```
-           _._
-        .-'   `
-      __|__
-     /     \
-     |()_()|
-     \{o o}/
-      =\o/=
-       ^ ^
+                         ____    .-.
+                     .-"`    `",( __\_
+      .-==:;-._    .'         .-.     `'.
+    .'      `"-:'-/          (  \} -=a  .)
+   /            \/       \,== `-  __..-'`
+'-'              |       |   |  .'\ `;
+                  \    _/---'\ (   `"`
+                 /.`._ )      \ `;
+                 \`-/.'        `"`
+                  `"\`-.
 ```
 
 A simple little program for calculating Bayesian likelihoods of tests like RATs
