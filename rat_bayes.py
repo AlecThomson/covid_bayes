@@ -30,6 +30,26 @@ def posterior(sensitivity, specificity, prevalence):
     return p_covid
 
 def main():
+    desc_str = r"""
+                         ____    .-.
+                     .-"`    `",( __\_
+      .-==:;-._    .'         .-.     `'.
+    .'      `"-:'-/          (  \} -=a  .)
+   /            \/       \,== `-  __..-'`
+'-'              |       |   |  .'\ `;
+                  \    _/---'\ (   `"`
+                 /.`._ )      \ `;
+                 \`-/.'        `"`
+                  `"\`-.
+                     `"`
+
+A simple little program for calculating Bayesian likelihoods of tests like RATs
+
+This is for 'fun'
+
+!!! Please don't use this as health advice !!!
+    """
+    print(desc_str)
     try:
         sensitivity = float(input("What is the sensitivity of the test? (as a percentage e.g. 90)\n > "))/100
         specificity = float(input("What is the specificity of the test? (as a percentage e.g. 98)\n > "))/100
@@ -43,22 +63,22 @@ def main():
         print("Ivnalid input! Please try again.")
         main()
 
-if __name__ == "__main__":
-    desc_str = r"""
-           _._
-        .-'   `
-      __|__
-     /     \
-     |()_()|
-     \{o o}/
-      =\o/=
-       ^ ^
-
-A simple little program for calculating Bayesian likelihoods of tests like RATs
-
-This is for 'fun'
-
-!!! Please don't use this as health advice !!!
+    print(
     """
-    print(desc_str)
+Bye!
+               _     __,..---""-._                 ';-,
+        ,    _/_),-"`             '-.                `\\
+       \|.-"`    -_)                 '.                ||
+       /`   a   ,                      \              .'/
+       '.___,__/                 .-'    \_        _.-'.'
+          |\  \      \         /`        _`""""""`_.-'
+             _/;--._, >        |   --.__/ `""""""`
+           (((-'  __//`'-......-;\      )
+                (((-'       __//  '--. /
+                          (((-'    __//
+                                 (((-'
+    """
+    )
+
+if __name__ == "__main__":
     main()
